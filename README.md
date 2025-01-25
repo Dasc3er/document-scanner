@@ -4,6 +4,11 @@ This repository contains the source code for a Document Scanner application, abl
 
 The UI framework used is React, with image operations completed via OpenCV (types provided via @techstark/opencv-js) and the jsPDF library is used to combine the transformed images to a PDF.
 
+TODO:
+- Improve contour detection to allow multi-edge elements (which can be cast as 4-vertices polygons)
+- Allow manual selection of vertices
+- Force manual selection if no automatic contour is available
+
 ## How to Run
 
 1) Clone this repository.
