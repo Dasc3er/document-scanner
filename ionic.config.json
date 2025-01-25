@@ -1,0 +1,7 @@
+{
+  "name": "document-scanner",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
